@@ -1,0 +1,55 @@
+<data winNumber="5" loseNumber="5" totalNumber="10">
+	<text level="-5">
+		<upper>Why don't you blend?\nIt's the only way to be accepted.\nYou can do better:</upper>
+		<lower>Hide your personality, touch the screen.</lower>
+	</text>
+	<text level="-4">
+		<upper>People started to notice you are different,\naren't you afraid from being rejected by them?\nHere is how you've done so far:</upper>
+		<lower>Hide how you feel, touch the screen.</lower>
+	</text>
+	<text level="-3">
+		<upper>Moving against people's expectations is very hard,\nif you keep doing it they will hate you.\nHere is how you've done so far:</upper>
+		<lower>Hide how you feel, touch the screen.</lower>
+	</text>
+	<text level="-2">
+		<upper>I know acting different is only a phase.\nWhen the phase is done, you will be like others.\nYou'll be loved soon:</upper>
+		<lower>You can do it, touch the screen.</lower>
+	</text>
+	<text level="-1">
+		<upper>You need to act like others.\nHere is the result so far:</upper>
+		<lower>Try harder, touch the screen.</lower>
+	</text>
+	<text level="1">
+		<upper>Find comfort in your social interactions.\nYou're getting better at it:</upper>
+		<lower>Try harder, touch the screen.</lower>
+	</text>
+	<text level="2">
+		<upper>Being different is a life threat.\nYou protected yourself for this long:</upper>
+		<lower>Hide who you are, touch the screen.</lower>
+	</text>
+	<text level="3">
+		<upper>You want to open up, be yourself.\nBut you can't.</upper>
+		<lower>Hide your feelings, touch the screen.</lower>
+	</text>
+	<text level="4">
+		<upper>They don't like you because they don't know you.\nYet their prejudice is trying to kill you.</upper>
+		<lower>Hide who you are, touch the screen.</lower>
+	</text>
+	<text level="5">
+		<upper>After all you've done, they still know who you really are.\nBut you're very good at this now:</upper>
+		<lower>Hide your feelings, touch the screen.</lower>
+	</text>
+	<ending>
+		<text>You're an invisible person.\nBut you can't find love this way.\nIt's hopeless, but...</text>
+		<text>You're beautiful and different.\nBut no one can appreciate it.\nBecause they are not open-minded.</text>
+		<text>You want to be loved, be yourself.\nBut you're so good at hiding.\nIt's impossible now.</text>
+		<text>You completed the game. You're perfect at it.\nHiding who you really are, that's it.\nBut you know you can't live like this any more.</text>
+		<text>The End.</text>
+	</ending>
+	<ending>
+		<text>You were right, blending is not a solution.\nSome people didn't like you but this is life.</text>
+		<text>More people should be like you,\nloving themselves and accepting themselves the way they are.\nNot pretending that they are another person.</text>
+		<text>I am sure one day you will get love.\nYou won't be alone forever.\nJust be yourself</text>
+		<text>The End.</text>
+	</ending>
+</data>

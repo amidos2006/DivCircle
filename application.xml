@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<application xmlns="http://ns.adobe.com/air/application/17.0">
+  <id>com.Amidos.DivCircle</id>
+  <versionNumber>1.0.4</versionNumber>
+  <supportedProfiles>mobileDevice</supportedProfiles>
+  <filename>DivCircle</filename>
+  <name>DivCircle</name>
+  <android>
+    <manifestAdditions><![CDATA[<manifest android:installLocation="auto">
+	<uses-sdk android:targetSdkVersion="16" />
+	<uses-sdk android:minSdkVersion="9" />
+	<application>
+		<meta-data android:name="com.google.android.gms.games.APP_ID" android:value="\ 457623329733" />
+		<meta-data android:name="com.google.android.gms.version" android:value="4452000" />
+	</application>
+	<uses-permission android:name="android.permission.INTERNET" />
+	<uses-feature android:required="true" android:name="android.hardware.touchscreen.multitouch" />
+</manifest>]]></manifestAdditions>
+  </android>
+  <iPhone>
+    <InfoAdditions><![CDATA[<key>UIStatusBarStyle</key>
+<string>UIStatusBarStyleBlackOpaque</string>
+<key>UIRequiresPersistentWiFi</key>
+<string>NO</string>
+<key>UIPrerenderedIcon</key>
+<true />
+<key>UIApplicationExitsOnSuspend</key>
+<false />
+<key>UIDeviceFamily</key>
+<array>
+	<!-- iPhone support -->
+	<string>1</string>
+	<!-- iPad support -->
+	<string>2</string>
+</array>]]></InfoAdditions>
+    <requestedDisplayResolution>high</requestedDisplayResolution>
+  </iPhone>
+  <initialWindow>
+    <title>DivCircle</title>
+    <content>DivCircle.swf</content>
+    <visible>true</visible>
+    <fullScreen>true</fullScreen>
+    <!--<autoOrients>false</autoOrients>-->
+    <aspectRatio>landscape</aspectRatio>
+    <renderMode>direct</renderMode>
+    <systemChrome>standard</systemChrome>
+  </initialWindow>
+  <icon>
+    <image48x48>icons/DivCircle48.png</image48x48>
+    <image57x57>icons/DivCircle57.png</image57x57>
+    <image72x72>icons/DivCircle72.png</image72x72>
+    <image76x76>icons/DivCircle76.png</image76x76>
+    <image114x114>icons/DivCircle114.png</image114x114>
+    <image120x120>icons/DivCircle120.png</image120x120>
+    <image144x144>icons/DivCircle144.png</image144x144>
+    <image152x152>icons/DivCircle152.png</image152x152>
+    <image16x16>icons/DivCircle16.png</image16x16>
+    <image29x29>icons/DivCircle29.png</image29x29>
+    <image32x32>icons/DivCircle32.png</image32x32>
+    <image36x36>icons/DivCircle36.png</image36x36>
+    <image40x40>icons/DivCircle40.png</image40x40>
+    <image50x50>icons/DivCircle50.png</image50x50>
+    <image58x58>icons/DivCircle58.png</image58x58>
+    <image80x80>icons/DivCircle80.png</image80x80>
+    <image100x100>icons/DivCircle100.png</image100x100>
+    <image128x128>icons/DivCircle128.png</image128x128>
+    <image512x512>icons/DivCircle512.png</image512x512>
+  </icon>
+  <!-- 
+	AIR options:
+	http://livedocs.adobe.com/flex/3/html/File_formats_1.html#1043413
+	
+	AIR mobile options:
+	http://help.adobe.com/en_US/air/build/WSfffb011ac560372f-5d0f4f25128cc9cd0cb-7ffe.html
+	
+	iOS icons guidelines:
+	http://developer.apple.com/library/ios/#documentation/userexperience/conceptual/mobilehig/IconsImages/IconsImages.html
+	
+	Android manifest documentation:
+	http://developer.android.com/guide/topics/manifest/manifest-intro.html
+	-->
+  <copyright>© 2014 Amidos</copyright>
+  <description>Touch, Rotate, Blend</description>
+  <extensions>
+    <extensionID>com.sticksports.nativeExtensions.SilentSwitch</extensionID>
+    <extensionID>com.milkmangames.extensions.GameCenter</extensionID>
+	<extensionID>com.milkmangames.extensions.GoogleGames</extensionID>
+	<extensionID>com.mesmotronic.ane.fullscreen</extensionID>
+  </extensions>
+</application>
